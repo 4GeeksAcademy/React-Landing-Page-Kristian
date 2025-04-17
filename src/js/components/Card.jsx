@@ -8,7 +8,9 @@ const Card = (props) => {
                 <div className="card-body">
                     <h5 className="card-title text-center">{props.title}</h5>
                     <p className="card-text">{props.body}</p>
-                    <a href={props.buttonUrl} className="btn btn-primary d-flex justify-content-center mt-auto">{props.buttonLabel}</a>
+                </div>
+                <div className="card-footer d-flex justify-content-center">
+                <a href={props.buttonUrl} target="_blank" className="btn btn-primary">{props.buttonLabel}</a>
                 </div>
             </div>
     );

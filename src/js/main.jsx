@@ -12,6 +12,7 @@ import '../styles/index.css'
 import Navbar from './components/Navbar';
 import Jumbotron from './components/Jumbotron.jsx';
 import Card from './components/Card.jsx';
+import Footer from './components/Footer.jsx';
 
 let cardInfo = [
   {title: "Switzerland",
@@ -28,7 +29,7 @@ let cardInfo = [
 
   {title: "Brazil",
     body: "Brazil is the largest and easternmost country in South America. It is the world's fifth-largest country by area and the seventh largest by population, with over 212 million people.",
-    imageUrl: "https://media.istockphoto.com/id/482992813/video/aerial-shot-of-rio-de-janeiro-brazil.jpg?s=640x640&k=20&c=q2SItO5vZDxCXMo4Poztm7hSsABZVvQpZRr4CBD0_8I=",
+    imageUrl: "https://images.goway.com/production/styles/wide/s3/featured_images/shutterstock_1276835941.jpg?VersionId=8J5kvtmyfQvvXxvXnm3qGW2JAq6oIiOX&itok=rsqgjKoT",
     buttonLabel: "Find Out More!",
     buttonUrl: "https://en.wikipedia.org/wiki/Brazil"},
 
@@ -55,5 +56,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         ))}
       </div>
     </div>
+    <Footer />
   </React.StrictMode>,
 )
