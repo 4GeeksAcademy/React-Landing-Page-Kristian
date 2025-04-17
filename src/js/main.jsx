@@ -45,10 +45,14 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Jumbotron />
     <div className="container-fluid">
       <div className="row justify-content-center">
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
+        {cardInfo.map((item, index) => (
+          <Card key={index} 
+          title={item.title} 
+          body={item.body} 
+          imageUrl={item.imageUrl} 
+          buttonLabel={item.buttonLabel} 
+          buttonUrl={item.buttonUrl} />
+        ))}
       </div>
     </div>
   </React.StrictMode>,
