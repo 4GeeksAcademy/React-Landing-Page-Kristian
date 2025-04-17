@@ -47,12 +47,12 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <div className="container-fluid">
       <div className="row justify-content-center">
         {cardInfo.map((item, index) => (
-          <Card key={index} 
-          title={item.title} 
-          body={item.body} 
-          imageUrl={item.imageUrl} 
-          buttonLabel={item.buttonLabel} 
-          buttonUrl={item.buttonUrl} />
+          <Card key={index}
+            title={item.title}
+            body={item.body}
+            imageUrl={item.imageUrl}
+            buttonLabel={item.buttonLabel}
+            buttonUrl={item.buttonUrl} />
         ))}
       </div>
     </div>
