@@ -10,9 +10,11 @@ import '../styles/index.css'
 
 // components
 import Navbar from './components/Navbar';
+import Jumbotron from './components/Jumbotron.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Navbar/>
+    <Jumbotron/>
   </React.StrictMode>,
 )
