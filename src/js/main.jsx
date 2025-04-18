@@ -43,9 +43,9 @@ let cardInfo = [
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Navbar />
-    <Jumbotron />
-    <div className="container-fluid">
-      <div className="row justify-content-center">
+      <Jumbotron />
+    <div className="container">
+      <div className="row justify-content-around">
         {cardInfo.map((item, index) => (
           <Card key={index}
             title={item.title}
